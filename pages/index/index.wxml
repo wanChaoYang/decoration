@@ -1,2 +1,73 @@
 <!--index.wxml-->
-<topNav title='我的活动' bind:isback='isback' fontcolor='#000'  bgcolor='#fff'></topNav>
+<!-- <topNav title='我的活动' bind:isback='isback' fontcolor='#fff'  bgcolor='#616161'></topNav> -->
+<view class="home-page">
+	<view class="nav-home">
+		<!-- 导航轮播-->
+		<view class="allFlexBet backgrond-nav">
+			<view class="hi-text">Hi!</view>
+			<view class="subscribe">+ 订阅</view>
+		</view>
+		<view class="desc-text">欢迎来到生活家装饰给你不一样的装修体验</view>
+		<view class="swiper-con allFlexAro">
+			<view class="swiper-con-img">
+				<swiper class="screen-swiper {{DotStyle?'square-dot':'round-dot'}}" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500">
+					<swiper-item wx:for="{{swiperList}}" wx:key>
+						<image src="{{item.url}}" mode="aspectFill" wx:if="{{item.type=='image'}}"></image>
+					</swiper-item>
+				</swiper>
+			</view>
+		</view>
+	</view>
+	<!-- 装修案列 -->
+	<view class="case-outfit">
+		<view class="case-outfit-list">
+			<view class="cu-avatar lg round" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big99008.jpg);"></view>
+			<view class="case-outfit-text">装修案例</view>
+		</view>
+		<view class="case-outfit-list">
+			<view class="cu-avatar lg round" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big99008.jpg);"></view>
+			<view class="case-outfit-text">装修案例</view>
+		</view>
+		<view class="case-outfit-list">
+			<view class="cu-avatar lg round" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big99008.jpg);"></view>
+			<view class="case-outfit-text">装修案例</view>
+		</view>
+		<view class="case-outfit-list">
+			<view class="cu-avatar lg round" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big99008.jpg);"></view>
+			<view class="case-outfit-text">装修案例</view>
+		</view>
+		<view class="case-outfit-list">
+			<view class="cu-avatar lg round" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big99008.jpg);"></view>
+			<view class="case-outfit-text">装修案例</view>
+		</view>
+	</view>
+	<!-- 小轮播 -->
+	<view>
+
+	</view>
+	<!-- 精准报价 -->
+	<view class="allFlexAro">
+		<view class="case-input">
+			<input placeholder="您的电话号码"></input>
+		</view>
+		<view class="case-input allFlexBet">
+			<input placeholder="房屋面积"></input>
+			<view>㎡</view>
+		</view>
+	</view>
+	<view class="allFlexAro margin-top-sm">
+		<view class="case-input allFlexBet">
+			<picker mode="region" bindchange="RegionChange" value="{{region}}" custom-item="{{customItem}}">
+				<view class="picker">
+					{{region[0]}}{{region[1]}}{{region[2]}}
+				</view>
+			</picker>
+			<view>▼</view>
+		</view>
+		
+	<view class="btn-bg">
+    一键获取
+</view>
+	
+	</view>
+</view>

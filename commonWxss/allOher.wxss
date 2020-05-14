@@ -2,6 +2,7 @@
 .allFlexBet{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 /* 全局水平均匀分布 */
 .allFlexAro{
