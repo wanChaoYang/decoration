@@ -1,12 +1,14 @@
 {
-  "pages":[
+  "pages": [
+    "pages/singlePro-B/singlePro-B",
+    "pages/wholeSeries-B/wholeSeries-B",
     "pages/index/index"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
