@@ -128,3 +128,31 @@
   padding: 0 20rpx;
   text-align: center;
 }
+.case-title{
+font-size:38rpx;
+font-family:PingFang SC;
+font-weight:800;
+line-height:53rpx;
+color:rgba(107,112,134,1);
+opacity:1;
+padding: 0 25rpx;
+margin: 40rpx 0;
+}
+.scroll-item{
+  border: 1px solid black;
+  width: 320rpx;
+  margin:0 10rpx;
+  height: 200rpx;
+  display: inline-block;
+}
+.scrollContainer{
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+  width: 100%;
+  height: 200rpx;
+  /* border-top: 1rpx solid #EF639F;
+  border-bottom: 1rpx solid #EF639F; */
+  /* background-color: #EEE; */
+  padding: 0 10rpx;
+}
