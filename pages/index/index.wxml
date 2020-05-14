@@ -1,0 +1,2 @@
+<!--index.wxml-->
+<topNav title='我的活动' bind:isback='isback' fontcolor='#000'  bgcolor='#fff'></topNav>

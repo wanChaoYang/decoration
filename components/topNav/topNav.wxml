@@ -1,0 +1,23 @@
+<view class="nowrap fs" style="line-height:{{app.data.menuHeight}}px;height:{{app.data.menuHeight + app.data.menuTop +5}}px;background:{{bgcolor}}">
+  <view wx:if='{{isBack}}' catchtap="isback" class="isbackIcon" style="top:{{app.data.menuTop}}px">
+    <image wx:if='{{iconColor==false}}' src="../compUseImg/comeback.png" class="comeicon" style="margin-top:{{(app.data.menuHeight - 16) / 2}}px"></image>
+    <image wx:if='{{iconColor}}' src="../compUseImg/comeback2.png" class="comeicon" style="margin-top:{{(app.data.menuHeight - 16) / 2}}px"></image>
+  </view>
+
+  <view wx:if='{{isRanch == true}}' catchtap="isRanch" class="isbackIcon" style="top:{{app.data.menuTop}}px">
+    <image wx:if='{{iconColor==false}}' src="../compUseImg/comeback.png" class="comeicon" style="margin-top:{{(app.data.menuHeight - 16) / 2}}px"></image>
+    <image wx:if='{{iconColor}}' src="../compUseImg/comeback2.png" class="comeicon" style="margin-top:{{(app.data.menuHeight - 16) / 2}}px"></image>
+  </view>
+
+  <view wx:if='{{isNavergeter == true}}' catchtap="isNavergeter" class="isbackIcon" style="top:{{app.data.menuTop}}px">
+    <image wx:if='{{iconColor==false}}' src="../compUseImg/comeback.png" class="comeicon" style="margin-top:{{(app.data.menuHeight - 16) / 2}}px"></image>
+    <image wx:if='{{iconColor}}' src="../compUseImg/comeback2.png" class="comeicon" style="margin-top:{{(app.data.menuHeight - 16) / 2}}px"></image>
+  </view>
+
+  <button  wx:if='{{ISapp}}' class="isbackIcons" open-type="launchApp" app-parameter="wechat" binderror="launchAppError" style='padding: 0;margin-left: 40rpx;line-height: 0;width: 16px;height: 32px;margin-top:{{app.data.menuTop}}px'>
+    <image wx:if='{{iconColor==false}}' src="../compUseImg/comeback.png" class="comeicon" style="margin-top:{{(app.data.menuHeight - 16) / 2}}px"></image>
+    <image wx:if='{{iconColor}}' src="../compUseImg/comeback2.png" class="comeicon" style="margin-top:{{(app.data.menuHeight - 16) / 2}}px"></image>
+  </button>
+
+  <view class="context" style="height:{{app.data.menuHeight}}px;line-height:{{app.data.menuHeight}}px;color:{{fontcolor}};top:{{app.data.menuTop}}px">{{title}}</view>
+</view>

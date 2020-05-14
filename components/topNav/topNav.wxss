@@ -1,0 +1,34 @@
+/* pages/common/topNav/topNav.wxss */
+.fs{
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  z-index: 98
+}
+.context{
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 0;left: 0;
+}
+.isbackIcon{
+  margin-left: 40rpx;
+  z-index: 3;
+  position: absolute;
+  width: 60rpx;
+}
+.comeicon{
+  width: 16px;
+  height: 16px;
+}
+.isbackIcons{
+  margin-left: 40rpx;
+  background: none;
+  border: none;
+}
+.isbackIcons::after{
+  margin-left: 40rpx;
+  background: none;
+  border: none;
+  box-shadow: none;
+}
