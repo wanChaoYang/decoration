@@ -4,6 +4,8 @@ App({
   data: {
     userInfo: {},
     httpRequestUrl: httpRequestUrl,
+    menuHeight: 0,
+    menuTop: 0,
   },
   onLaunch: function () {
     //新版本更替无需重启

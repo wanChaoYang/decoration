@@ -1,6 +1,8 @@
 {
-  "pages":[
-    "pages/index/index"
+  "pages": [
+    "pages/index/index",
+    "pages/singlePro-B/singlePro-B",
+    "pages/wholeSeries-B/wholeSeries-B"
   ],
   "window":{
     "backgroundTextStyle":"light",

@@ -86,3 +86,4 @@
       </scroll-view>
   </view>
 </view>
+<topNav title='我的活动' bind:isback='isback' iconColor='true' fontcolor='#000'  bgcolor='#fff'></topNav>
