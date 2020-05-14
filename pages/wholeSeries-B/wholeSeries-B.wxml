@@ -1,0 +1,25 @@
+<!--pages/wholeSeries-B/wholeSeries-B.wxml-->
+<topNav title='全系产品' isBack='true' fontcolor='#fff' iconColor='true' bgcolor='#616161'></topNav>
+<view class="tops" style="height:{{app.data.menuHeight + app.data.menuTop + 5}}px"></view>
+<view class="nowrap allFlexAro topTitle">
+  <view bindtap="chooseIt" data-it='1'>尖猫美家</view>
+  <view bindtap="chooseIt" data-it='2'>轻奢装</view>
+  <view bindtap="chooseIt" data-it='3'>梵高国际</view>
+</view>
+<view class="borders nowrap allFlexAro">
+  <view style="background:{{chooseState==1?'#6b7086':'#fff'}}"></view>
+  <view style="background:{{chooseState==2?'#6b7086':'#fff'}}"></view>
+  <view style="background:{{chooseState==3?'#6b7086':'#fff'}}"></view>
+</view>
+
+<swiper>
+    <swiper-item>
+      <image src='/src-B/longer.png'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='/src-B/longer.png'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='/src-B/longer.png'></image>
+    </swiper-item>
+</swiper>

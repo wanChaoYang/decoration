@@ -1,0 +1,18 @@
+<!--components/singlePro/singlePro.wxml-->
+<view class="singleOutBox" catchtap="ToHref">
+        <view class="singleImg">
+          <image src="{{imageUrl}}" style="width:100%;height:100%"></image>
+        </view>
+        <view class="singleTitle flowRow">
+          {{productName}}
+        </view>
+        <view class="nowrap allFlexBet proDetailInfo">
+          <view class="proDetailInfoT">
+            {{productTitle}}
+          </view>
+          <view class="countSee nowrap">
+            <text class="lg text-gray cuIcon-attentionfill" style="line-height: 28rpx;"></text>
+            <view style="margin-left: 10rpx;">{{seeNum}}</view>
+          </view>
+        </view>
+      </view>

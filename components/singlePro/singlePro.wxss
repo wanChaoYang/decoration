@@ -1,0 +1,47 @@
+/* components/singlePro/singlePro.wxss */
+/* 共有样式 */
+@import '/commonWxss/allOher.wxss';
+/* color-UI样式 */
+@import '/commonWxss/animation.wxss';
+@import '/commonWxss/icon.wxss';
+@import '/commonWxss/main.wxss';
+/* ------- */
+.singleOutBox{
+  width:335rpx;
+  /* height: 464rpx; */
+  background: #fff;
+  margin-top: 20rpx;
+  border-radius: 8rpx;
+  padding-bottom: 10rpx;
+  overflow: auto;
+}
+.singleImg{
+  width: 335rpx;
+  height: 335rpx;
+  border-radius: 8rpx;
+  background: #fff;
+}
+.singleTitle{
+  color: #6B7086;
+  font-size: 24rpx;
+  text-align: left;
+  margin-top: 15rpx;
+
+}
+.proDetailInfo{
+  margin-top: 15rpx;
+}
+.proDetailInfoT{
+  font-size: 24rpx;
+  color: #BFC2CF;
+  
+}
+.countSee{
+  font-size: 24rpx;
+  color: #BFC2CF;
+}
+.sins{
+  margin: 10px;
+            column-count: 2;
+            column-gap: 10px;
+}

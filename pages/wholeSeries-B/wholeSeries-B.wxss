@@ -1,0 +1,20 @@
+/* pages/wholeSeries-B/wholeSeries-B.wxss */
+page{
+  background: #fff
+}
+.topTitle{
+  font-size: 28rpx;
+  color:#6B7086;
+  margin-top: 40rpx;
+}
+.borders>view{
+  width: 40rpx;
+  height: 6rpx;
+  border-radius: 2.5rpx;
+  margin-top: 13rpx;
+  background: #6b7086;
+  transition: all .3s linear;
+}
+.swiper image{
+  width: 100%
+}

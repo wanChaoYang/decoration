@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "singlePro": "/components/singlePro/singlePro"
+  }
+}

@@ -1,0 +1,4 @@
+/* pages/singlePro-B/singlePro-B.wxss */
+.sins{
+  column-count: 2
+}
