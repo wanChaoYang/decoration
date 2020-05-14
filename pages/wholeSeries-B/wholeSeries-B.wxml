@@ -1,4 +1,4 @@
-<!--pages/wholeSeries-B/wholeSeries-B.wxml-->
+<!-- pages/wholeSeries-B/wholeSeries-B.wxml -->
 <topNav title='全系产品' isBack='true' fontcolor='#fff' iconColor='true' bgcolor='#616161'></topNav>
 <view class="tops" style="height:{{app.data.menuHeight + app.data.menuTop + 5}}px"></view>
 <view class="nowrap allFlexAro topTitle">
@@ -12,14 +12,24 @@
   <view style="background:{{chooseState==3?'#6b7086':'#fff'}}"></view>
 </view>
 
-<swiper>
+<swiper style="height: {{clientHeight?clientHeight+'px':'auto'}}" bindchange='changeSwipper' current='{{chooseState-1}}'>
     <swiper-item>
-      <image src='/src-B/longer.png'></image>
+      <scroll-view  scroll-y="true" style="height:auto">
+        <view style="height:1000px">
+          <image src="/components/compUseImg/comeback.png" ></image>
+        </view>
+        
+      </scroll-view>
     </swiper-item>
     <swiper-item>
-      <image src='/src-B/longer.png'></image>
+    <scroll-view  scroll-y="true" style="height: auto">
+        <image src="/components/compUseImg/comeback.png"></image>
+      </scroll-view>
     </swiper-item>
     <swiper-item>
-      <image src='/src-B/longer.png'></image>
+      <scroll-view  scroll-y="true" style="height: auto">
+        <image src="/components/compUseImg/comeback.png"></image>
+      </scroll-view>
     </swiper-item>
 </swiper>
+

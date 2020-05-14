@@ -7,13 +7,21 @@ Page({
    */
   data: {
     app:getApp(),
-    chooseState:1
+    chooseState:1,
+    clientHeight:0
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    let _this = this;
+    wx.getSystemInfo({
+      success: function (res) {
+        _this.setData({
+        clientHeight: res.windowHeight
+      });
+  }})
   },
 
   /**
@@ -67,6 +75,12 @@ Page({
   chooseIt(e){
     this.setData({
       chooseState: e.currentTarget.dataset.it
+    })
+  },
+  changeSwipper(e){
+    console.log(e)
+    this.setData({
+      chooseState: e.detail.current+1
     })
   }
 })

@@ -13,5 +13,38 @@
     </view>
   
 </view>
+<!-- <view class="case-show">
+<view style="overflow:auto;">
+<singlePro 
+          bind:ToHref='ToHref' 
+          imageUrl='/components/compUseImg/comeback.png' 
+          productName='保利锦江里110平米港式风格效 果图案例' 
+          productTitle='三居室 | 112㎡' 
+          seeNum='54556' 
+          hrefLink='/pages/index/index'>
 
+        </singlePro>
+</view>
+<view style="overflow:auto;">
+<singlePro 
+          bind:ToHref='ToHref' 
+          imageUrl='/components/compUseImg/comeback.png' 
+          productName='保利锦江里110平米港式风格效 果图案例' 
+          productTitle='三居室 | 112㎡' 
+          seeNum='54556' 
+          hrefLink='/pages/index/index'>
 
+        </singlePro>
+</view>
+<view style="overflow:auto;">
+<singlePro 
+          bind:ToHref='ToHref' 
+          imageUrl='/components/compUseImg/comeback.png' 
+          productName='保利锦江里110平米港式风格效 果图案例' 
+          productTitle='三居室 | 112㎡' 
+          seeNum='54556' 
+          hrefLink='/pages/index/index'>
+
+        </singlePro>
+</view>
+</view> -->
