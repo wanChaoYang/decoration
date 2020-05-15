@@ -1,0 +1,57 @@
+/* components/cardList/cardList.wxss */
+/* 共有样式 */
+@import '/commonWxss/allOher.wxss';
+/* color-UI样式 */
+@import '/commonWxss/animation.wxss';
+@import '/commonWxss/icon.wxss';
+@import '/commonWxss/main.wxss';
+
+.uesr-info {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.uesr-info text {
+  margin-left: 20rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 800;
+  line-height: 40rpx;
+  color: rgba(107, 112, 134, 1);
+  opacity: 1;
+}
+
+.card-list {
+  background: rgba(245, 246, 250, 1);
+  opacity: 1;
+  border-radius: 8rpx;
+  padding: 30rpx;
+}
+.w-btn{
+width:160rpx;
+height:60rpx; 
+display: flex;
+justify-content: center;
+align-items: center;
+background:rgba(223,226,238,1);
+opacity:1;
+font-size: 28rpx;
+border-radius:50rpx  ;
+}
+.Village-name{
+font-size:24rpx;
+font-family:PingFang SC;
+font-weight:400;
+line-height:33rpx;
+color:rgba(107,112,134,1);
+opacity:1;
+margin: 20rpx 0;
+}
+.card-list-img{
+  /* border: 1px solid black; */
+  border-radius:8rpx;
+  background:rgba(107,112,134,1);
+  overflow: hidden;
+}

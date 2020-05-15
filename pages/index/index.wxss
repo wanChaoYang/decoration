@@ -205,3 +205,14 @@
   /* line-height: 33rpx; */
   color: rgba(107, 112, 134, 1);
 }
+
+.you-like {
+  column-count: 2;
+  width: 690rpx;
+  margin: auto;
+}
+
+.sing-s {
+  /* border: 1px solid black; */
+  /* padding: 20rpx; */
+}

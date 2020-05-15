@@ -84,6 +84,24 @@
 			</view>
 		</scroll-view>
 	</view>
+	<!-- 晒家 -->
+	<view style="padding:0 20rpx">
+		<view class="see-case-title">
+			<view class="case-title">猜你喜欢</view>
+			<view>
+				<text>查看更多</text>
+				<text class="cuIcon-right"></text>
+			</view>
+		</view>
+		<view>
+			<cardList userName="小瓶盖1"
+			userImg="https://ossweb-img.qq.com/images/lol/web201310/skin/big99008.jpg"
+			VillageName="保利锦江里110平米港式风湿效果图案列"
+			VillageImg="https://ossweb-img.qq.com/images/lol/web201310/skin/big99008.jpg"
+			bind:event="styleDetails"
+			></cardList>
+		</view>
+	</view>
 	<!-- 猜你喜欢 -->
 	<view class="">
 		<view class="see-case-title">
@@ -93,9 +111,10 @@
 				<text class="cuIcon-right"></text>
 			</view>
 		</view>
-		<view>
-			<singlePro imageUrl='/components/compUseImg/comeback.png' productName='保利锦江里110平米港式风格效 果图案例' productTitle='三居室 | 112㎡' seeNum='54556'></singlePro>
+		<view class="you-like">
+			<view class="sing-s" wx:for="{{swiperList}}">
+				<singlePro imageUrl='/components/compUseImg/comeback.png' productName='保利锦江里110平米港式风格效 果图案例' productTitle='三居室 | 112㎡' seeNum='54556'></singlePro>
+			</view>
 		</view>
 	</view>
-
 </view>

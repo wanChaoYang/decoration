@@ -1,6 +1,7 @@
 {
   "usingComponents": {
     "topNav": "/components/topNav/topNav",
-    "singlePro":"/components/singlePro/singlePro"
+    "singlePro":"/components/singlePro/singlePro",
+    "cardList":"/components/cardList/cardList"
   } 
 }
