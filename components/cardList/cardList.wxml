@@ -11,6 +11,6 @@
 	</view>
    <view class="Village-name">{{VillageName}}</view>
     <view class="card-list-img">
-      <image mode="widthFix" src="{{VillageImg}}"></image>
+      <image mode="aspectFill" src="{{VillageImg}}" style="width:100%" ></image>
     </view>
 </view>

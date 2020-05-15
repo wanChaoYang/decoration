@@ -12,7 +12,7 @@
 			<view class="swiper-con-img">
 				<swiper class="screen-swiper {{DotStyle?'square-dot':'round-dot'}}" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500">
 					<swiper-item wx:for="{{swiperList}}" wx:key>
-						<image src="{{item.url}}" mode="aspectFill" wx:if="{{item.type=='image'}}"></image>
+						<image src="{{item.url}}" mode="aspectFill" wx:if="{{item.type=='image'}}" style="width:100%"></image>
 					</swiper-item>
 				</swiper>
 			</view>
@@ -44,8 +44,8 @@
 	<!-- 小轮播 -->
 	<view class="swi-small">
 		<swiper class="swi-container" autoplay bindchange="swiChange">
-			<swiper-item wx:for="{{swiperList}}">
-				<image mode="" src="{{item.url}}"></image>
+			<swiper-item  wx:for="{{swiperList}}">
+				<image mode="widthFix" src="{{item.url}}" style="width:100%"></image>
 			</swiper-item>
 		</swiper>
 		<view class="dot-main">

@@ -64,10 +64,11 @@
 .swiper-con-img {
   position: absolute;
   width: 92%;
-  height: 375rpx;
+  height: 350rpx;
   border-radius: 20rpx 20rpx 20rpx 20rpx;
   overflow: hidden;
   top: 40rpx;
+  transform: translateY(0)
 }
 
 .case-outfit {
@@ -164,6 +165,7 @@
   height: 140rpx;
   border-radius: 70rpx 70rpx 70rpx 70rpx;
   overflow: hidden;
+  transform: translateY(0)
 }
 
 .swi-small {
