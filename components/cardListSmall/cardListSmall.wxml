@@ -1,0 +1,16 @@
+<!--components/cardListSmall/cardListSmall.wxml-->
+<view>
+	<view class="top-btn" style="background-image:url({{cardImg}});">
+		<view class="w-btn" bindtap="appointmentVisit">
+			预约参观
+		</view>
+	</view>
+	<view class="foot-con">
+		<text>{{area}}</text>
+		<text class="boder-left">{{doorModel}}</text>
+		<text class="boder-left">{{doorModelNum}}㎡</text>
+	</view>
+
+
+
+</view>

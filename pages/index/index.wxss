@@ -142,11 +142,12 @@
 }
 
 .scroll-item {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 320rpx;
   margin: 0 10rpx;
-  height: 200rpx;
+  /* height: 200rpx; */
   display: inline-block;
+  background:rgba(245,246,250,1);
 }
 
 .scrollContainer {
@@ -154,7 +155,7 @@
   flex-direction: row;
   white-space: nowrap;
   width: 100%;
-  height: 200rpx;
+  height: 400rpx;
   /* border-top: 1rpx solid #EF639F;
   border-bottom: 1rpx solid #EF639F; */
   /* background-color: #EEE; */

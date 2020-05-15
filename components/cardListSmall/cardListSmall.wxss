@@ -1,0 +1,44 @@
+/* components/cardListSmall/cardListSmall.wxss */
+.top-btn {
+  display: flex;
+  justify-content: flex-end;
+  height: 320rpx;
+  width: 320rpx;
+  padding: 20rpx;
+  background-repeat: repeat;
+  background-size: 100% 100%
+}
+
+.w-btn {
+  width: 160rpx;
+  height: 60rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(223, 226, 238, 1);
+  opacity: 1;
+  font-size: 28rpx;
+  border-radius: 50rpx;
+  color: rgba(107, 112, 134, 1);
+}
+
+.foot-con {
+  width: 320rpx;
+  height: 80rpx;
+  background: rgba(107, 112, 134, 1);
+  opacity: 1;
+  color: rgba(255, 255, 255, 1);
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  line-height: 37rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foot-con text{
+  padding: 0 20rpx;
+}
+.boder-left{
+  border-left: 1px solid rgba(255,255,255,1);
+}

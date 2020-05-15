@@ -2,6 +2,7 @@
   "usingComponents": {
     "topNav": "/components/topNav/topNav",
     "singlePro":"/components/singlePro/singlePro",
-    "cardList":"/components/cardList/cardList"
+    "cardList":"/components/cardList/cardList",
+    "cardListSmall":"/components/cardListSmall/cardListSmall"
   } 
 }

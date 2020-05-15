@@ -77,10 +77,16 @@
 		</view>
 	</view>
 	<!-- 在建工地 -->
-	<view class="case-title">在建工地</view>
+	<view class="case-title">在建工地</view>	
 	<view>
 		<scroll-view class='scrollContainer' scroll-x='true' scroll-with-animation="true">
 			<view class="scroll-item" wx:for="{{swiperList}}">
+			<cardListSmall cardImg="https://ossweb-img.qq.com/images/lol/web201310/skin/big99008.jpg"
+	        area="万象城"
+					doorModel="三居室"
+					doorModelNum="111"
+					bind:event="appointmentVisit"
+			></cardListSmall>
 			</view>
 		</scroll-view>
 	</view>
