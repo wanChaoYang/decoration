@@ -8,11 +8,9 @@
 /* ------- */
 .singleOutBox{
   width:335rpx;
-  /* height: 464rpx; */
-  background: #fff;
-  margin-top: 20rpx;
+  /* background: #fff; */
   border-radius: 8rpx;
-  padding-bottom: 10rpx;
+  padding-top: 10rpx;
   overflow: auto;
   height:100%
 }
@@ -21,6 +19,10 @@
   height: 335rpx;
   border-radius: 8rpx;
   background: #fff;
+}
+.singleIg{
+  padding-bottom: 10rpx;
+  background: #fff
 }
 .singleTitle{
   color: #6B7086;
