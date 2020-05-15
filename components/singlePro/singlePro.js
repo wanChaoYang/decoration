@@ -27,6 +27,14 @@ Component({
    * 组件的属性列表
    */
   properties: {
+    loadState:{
+      type:Boolean,
+      value:false
+    },
+    defaultImg:{
+      type:String,
+      value:'/components/compUseImg/unLoad.png'
+    },
     imageUrl:{
       type:String,
       value:''
@@ -66,6 +74,11 @@ Component({
           url: this.data.hrefLink,
         })
       }
+    },
+    imageLoad(e){
+      this.setData({
+        loadState:true
+      })
     }
   }
 })
