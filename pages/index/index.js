@@ -30,10 +30,17 @@ Page({
       url: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big21016.jpg'
     }],
     region: ['四川省', '成都市', '锦江区'],
+    current:0
   },
   RegionChange: function(e) {
     this.setData({
       region: e.detail.value
+    })
+  },
+  swiChange(e){
+    console.log(e)
+    this.setData({
+      current:e.detail.current
     })
   },
   onLoad: function () {

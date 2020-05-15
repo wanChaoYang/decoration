@@ -4,7 +4,7 @@
 	<view class="nav-home">
 		<!-- 导航轮播-->
 		<view class="allFlexBet backgrond-nav">
-			<view class="hi-text">Hi!</view>
+			<view class="hi-text">Hi~</view>
 			<view class="subscribe">+ 订阅</view>
 		</view>
 		<view class="desc-text">欢迎来到生活家装饰给你不一样的装修体验</view>
@@ -42,8 +42,15 @@
 		</view>
 	</view>
 	<!-- 小轮播 -->
-	<view>
-
+	<view class="swi-small">
+		<swiper class="swi-container" autoplay bindchange="swiChange">
+			<swiper-item wx:for="{{swiperList}}">
+				<image mode="" src="{{item.url}}"></image>
+			</swiper-item>
+		</swiper>
+		<view class="dot-main">
+			<view class="dot-item-all {{index==current?'dot-item':'dot-item2'}}" wx:for="{{swiperList}}" wx:key='index' wx:for-index='index'></view>
+		</view>
 	</view>
 	<!-- 精准报价 -->
 	<view class="case-title">精准报价</view>
@@ -69,21 +76,26 @@
 			一键获取
 		</view>
 	</view>
-  <!-- 在建工地 -->
-  <view class="case-title">在建工地</view>
-  <view>
-      <scroll-view class='scrollContainer' scroll-x='true' scroll-with-animation="true">
-        <view class="scroll-item" >
-        </view>
-        <view class="scroll-item" >
-        </view>
-        <view class="scroll-item" >
-        </view>
-        <view class="scroll-item" >
-        </view>
-        <view class="scroll-item" >
-        </view>
-      </scroll-view>
-  </view>
+	<!-- 在建工地 -->
+	<view class="case-title">在建工地</view>
+	<view>
+		<scroll-view class='scrollContainer' scroll-x='true' scroll-with-animation="true">
+			<view class="scroll-item" wx:for="{{swiperList}}">
+			</view>
+		</scroll-view>
+	</view>
+	<!-- 猜你喜欢 -->
+	<view class="">
+		<view class="see-case-title">
+			<view class="case-title">猜你喜欢</view>
+			<view>
+				<text>查看更多</text>
+				<text class="cuIcon-right"></text>
+			</view>
+		</view>
+		<view>
+			<singlePro imageUrl='/components/compUseImg/comeback.png' productName='保利锦江里110平米港式风格效 果图案例' productTitle='三居室 | 112㎡' seeNum='54556'></singlePro>
+		</view>
+	</view>
+
 </view>
-<topNav title='我的活动' bind:isback='isback' iconColor='true' fontcolor='#000'  bgcolor='#fff'></topNav>

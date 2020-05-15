@@ -113,7 +113,7 @@
   height: 90rpx;
 }
 
-.btn-bg{
+.btn-bg {
   width: 320rpx;
   height: 90rpx;
   background: #6B7086;
@@ -128,24 +128,27 @@
   padding: 0 20rpx;
   text-align: center;
 }
-.case-title{
-font-size:38rpx;
-font-family:PingFang SC;
-font-weight:800;
-line-height:53rpx;
-color:rgba(107,112,134,1);
-opacity:1;
-padding: 0 25rpx;
-margin: 40rpx 0;
+
+.case-title {
+  font-size: 38rpx;
+  font-family: PingFang SC;
+  font-weight: 800;
+  line-height: 53rpx;
+  color: rgba(107, 112, 134, 1);
+  opacity: 1;
+  padding: 0 25rpx;
+  margin: 40rpx 0;
 }
-.scroll-item{
+
+.scroll-item {
   border: 1px solid black;
   width: 320rpx;
-  margin:0 10rpx;
+  margin: 0 10rpx;
   height: 200rpx;
   display: inline-block;
 }
-.scrollContainer{
+
+.scrollContainer {
   display: flex;
   flex-direction: row;
   white-space: nowrap;
@@ -155,4 +158,50 @@ margin: 40rpx 0;
   border-bottom: 1rpx solid #EF639F; */
   /* background-color: #EEE; */
   padding: 0 10rpx;
+}
+
+.swi-container {
+  height: 140rpx;
+  border-radius: 70rpx 70rpx 70rpx 70rpx;
+  overflow: hidden;
+}
+
+.swi-small {
+  padding: 0 30rpx;
+}
+
+.dot-main {
+  /* border:1px solid black; */
+  display: flex;
+  justify-content: center;
+}
+
+.dot-item {
+  width: 35rpx;
+  height: 6rpx;
+}
+
+.dot-item-all {
+  transition: all 0.1s linear;
+  background: rgba(143, 146, 159, 1);
+  opacity: 1;
+  border-radius: 3rpx;
+  margin: 10rpx;
+}
+
+.dot-item2 {
+  width: 10rpx;
+  height: 6rpx;
+}
+
+.see-case-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20rpx 0 0;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  /* line-height: 33rpx; */
+  color: rgba(107, 112, 134, 1);
 }
