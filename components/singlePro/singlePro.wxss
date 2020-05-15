@@ -10,7 +10,7 @@
   width:335rpx;
   /* height: 464rpx; */
   background: #fff;
-  margin-top: 20rpx;
+  /* margin-top: 20rpx; */
   border-radius: 8rpx;
   padding-bottom: 10rpx;
   overflow: auto;
