@@ -93,14 +93,11 @@
 				<text class="cuIcon-right"></text>
 			</view>
 		</view>
-		<view>
-			<cardList userName="小瓶盖1"
-			userImg="https://ossweb-img.qq.com/images/lol/web201310/skin/big99008.jpg"
-			VillageName="保利锦江里110平米港式风湿效果图案列"
-			VillageImg="https://ossweb-img.qq.com/images/lol/web201310/skin/big99008.jpg"
-			bind:event="styleDetails"
-			></cardList>
-		</view>
+		<block wx:for="{{swiperList}}">
+			<view style="margin-bottom:20rpx">
+				<cardList userName="小瓶盖1" userImg="https://ossweb-img.qq.com/images/lol/web201310/skin/big99008.jpg" VillageName="保利锦江里110平米港式风湿效果图案列" VillageImg="{{item.url}}" bind:event="styleDetails"></cardList>
+			</view>
+		</block>
 	</view>
 	<!-- 猜你喜欢 -->
 	<view class="">

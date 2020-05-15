@@ -11,6 +11,6 @@
 	</view>
    <view class="Village-name">{{VillageName}}</view>
     <view class="card-list-img">
-      <image mode="widthFix" src="https://ossweb-img.qq.com/images/lol/web201310/skin/big99008.jpg"></image>
+      <image mode="widthFix" src="{{VillageImg}}"></image>
     </view>
 </view>

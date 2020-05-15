@@ -41,7 +41,7 @@ Component({
    */
   methods: {
     styleDetails(){
-      this.triggerEvent("event", { "index": 323 }, {})
+      this.triggerEvent("event", {}, {})
     }
   }
 })
