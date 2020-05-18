@@ -1,14 +1,17 @@
 {
   "pages": [
+   
     "pages/index/index",
     "pages/singlePro-B/singlePro-B",
-    "pages/wholeSeries-B/wholeSeries-B"
+    "pages/wholeSeries-B/wholeSeries-B",
+    "pages/decorateCase/decorateCase"
+   
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#616161",
     "navigationBarTitleText": "首页",
-    "navigationBarTextStyle":"white"
+    "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "color": "#6B7086",
@@ -16,27 +19,19 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "首页",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "text": "首页"
       },
       {
         "pagePath": "pages/index/index",
-        "text": "报价",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "text": "报价"
       },
       {
         "pagePath": "pages/index/index",
-        "text": "商城",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "text": "商城"
       },
       {
         "pagePath": "pages/index/index",
-        "text": "我的",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "text": "我的"
       }
     ]
   },
