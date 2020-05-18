@@ -1,0 +1,17 @@
+<!--components/bannerTop/bannerTop.wxml-->
+<view>
+	<view class="banner-img" style="background-image:url({{bannerImg}});">
+	</view>
+	<view class="banner-foot">
+		<view>{{villageName}}</view>
+ <view class="foot-con" wx:if="{{bannerType=='brows'}}">
+			<text>{{decStyle}}</text>
+			<text class="boder-left">{{doorModel}}</text>
+			<text class="boder-left">{{doorModelNum}}㎡</text>
+		</view>  
+		<view class="foot-con" wx:if="{{bannerType=='door'}}">
+			<text>{{dete}}</text>
+			<text>{{numberOf}}人浏览</text>
+		</view>
+	</view>
+</view>

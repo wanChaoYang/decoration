@@ -49,9 +49,11 @@ Page({
       url: '/pages/decorateCase/decorateCase',
     })
   },
-  //装饰风格
+  //晒家详情
   styleDetails(){
-    console.log(55)
+   wx.navigateTo({
+     url: '/pages/sunHome/sunHome',
+   })
   },
   //预约参观
   appointmentVisit(){

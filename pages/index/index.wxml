@@ -72,7 +72,7 @@
 	<!-- 晒家 -->
 	<view style="padding:0 20rpx">
 		<view class="see-case-title">
-			<view class="case-title">猜你喜欢</view>
+			<view class="case-title">晒家</view>
 			<view>
 				<text>查看更多</text>
 				<text class="cuIcon-right"></text>
