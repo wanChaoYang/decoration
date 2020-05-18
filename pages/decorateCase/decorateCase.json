@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "装修风格",
+  "usingComponents":{
+    "tabSelect":"/components/tabSelect/tabSelect"
+  }
+}

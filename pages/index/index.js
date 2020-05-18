@@ -43,6 +43,12 @@ Page({
       current:e.detail.current
     })
   },
+  //跳转装修风格
+  decorateCase(){
+    wx.navigateTo({
+      url: '/pages/decorateCase/decorateCase',
+    })
+  },
   //装饰风格
   styleDetails(){
     console.log(55)

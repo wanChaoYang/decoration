@@ -1,0 +1,12 @@
+<!--pages/decorateCase/decorateCase.wxml-->
+<view>
+	<view class="tab-card">
+		<tabSelect bind:event="changTab" tabList="{{tabList}}"></tabSelect>
+	</view>
+  <view class="tab-card">
+		<tabSelect bind:event="changTab" tabList="{{doorList}}"></tabSelect>
+	</view>
+  <view class="tab-card">
+		<tabSelect bind:event="changTab" tabList="{{styleList}}"></tabSelect>
+	</view>
+</view>

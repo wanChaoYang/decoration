@@ -1,0 +1,6 @@
+<!--components/tabSelect/tabSelect.wxml-->
+<scroll-view class='scrollContainer' scroll-x='true' scroll-with-animation="true" scroll-left="{{scrollLeft}}">
+	<view class="tab-btn {{TabCur==index?'tab-btn-select':''}}" bindtap="changTab" data-item="{{item}}" wx:for="{{tabList}}" wx:key="index">
+		{{item.text}}
+	</view>
+</scroll-view>
