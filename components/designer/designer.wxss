@@ -1,0 +1,56 @@
+/* components/designer/designer.wxss */
+@import '/commonWxss/animation.wxss';
+@import '/commonWxss/icon.wxss';
+@import '/commonWxss/main.wxss';
+
+.des-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30rpx 30rpx;
+}
+
+.des-name {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.des-name-z {
+  margin-left: 20rpx;
+}
+
+.des-name-n {
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: 800;
+  color: rgba(107, 112, 134, 1);
+  opacity: 1;
+}
+
+.des-name-t {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  line-height: 40rpx;
+  color: rgba(107, 112, 134, 1);
+  opacity: 0.5;
+}
+
+.des-name-t text {
+  margin-right: 10rpx;
+}
+
+.des-btn {
+  height: 60rpx;
+  padding: 0 30rpx;
+  background: rgba(223, 226, 238, 1);
+  opacity: 1;
+  border-radius: 30rpx;
+  text-align: center;
+  line-height: 60rpx;
+  font-size: 26rpx;
+  color: rgba(107, 112, 134, 1);
+  opacity: 1;
+
+}

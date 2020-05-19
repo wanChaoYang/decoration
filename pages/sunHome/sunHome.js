@@ -13,11 +13,17 @@ Page({
   error(e) {
     console.error('live-player error:', e.detail.errMsg)
   },
+  //评论input的值
   textInput(e){
     console.log(e.detail)
   },
+  // 分享
   shareLink(){
     console.log('分享')
+  },
+  //找他设计
+  LookingForDes(){
+    console.log('找他设计')
   },
   /**
    * 生命周期函数--监听页面加载

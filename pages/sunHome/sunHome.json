@@ -2,6 +2,7 @@
   "navigationStyle": "custom",
   "usingComponents": {
     "bannerTop":"/components/bannerTop/bannerTop",
-    "footerFixed":"/components/footerFixed/footerFixed"
+    "footerFixed":"/components/footerFixed/footerFixed",
+    "designer":"/components/designer/designer"
   }
 }

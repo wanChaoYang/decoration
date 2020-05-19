@@ -1,0 +1,17 @@
+<!--components/designer/designer.wxml-->
+<view class="des-con">
+	<view class="des-name">
+		<view class="cu-avatar lg round" style="background-image:url({{desImg}});"></view>
+		<view class="des-name-z">
+			<view class="des-name-n">{{desName}} <text class="cuIcon-vip"></text></view>
+			<view class="des-name-t" wx:if="{{describe==true}}">
+				<text>{{desLevel}}</text>
+				<text>案例{{desCase}}</text>
+				<text>从业{{desYear}}年</text>
+			</view>
+		</view>
+	</view>
+	<view class="des-btn" bindtap="LookingForDes">
+		{{btnText}}
+	</view>
+</view>

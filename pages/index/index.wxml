@@ -27,7 +27,7 @@
 	</view>
 	<!-- 小轮播 -->
 	<view class="swi-small">
-		<swiper class="swi-container" autoplay bindchange="swiChange">
+		<swiper class="swi-container" autoplay='true' circular="true" bindchange="swiChange">
 			<swiper-item wx:for="{{swiperList}}">
 				<image mode="widthFix" src="{{item.url}}" style="width:100%"></image>
 			</swiper-item>
