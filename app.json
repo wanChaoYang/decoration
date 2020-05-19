@@ -1,11 +1,11 @@
 {
   "pages": [
-   
     "pages/index/index",
     "pages/singlePro-B/singlePro-B",
     "pages/wholeSeries-B/wholeSeries-B",
-    "pages/decorateCase/decorateCase"
-   
+    "pages/decorateCase/decorateCase",
+    "pages/sunHome/sunHome",
+    "pages/siteLive/siteLive"
   ],
   "window": {
     "backgroundTextStyle": "light",
