@@ -1,0 +1,5 @@
+/* pages/siteLive/siteLive.wxss */
+.tab-card{
+  /* border: 1px solid black; */
+  padding: 15rpx 0;
+}

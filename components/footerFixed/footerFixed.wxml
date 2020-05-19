@@ -1,0 +1,24 @@
+<!--components/footerFixed/footerFixed.wxml-->
+<view class="footer-fixed">
+	<view class="footer-fixed-input">
+		<input class="" placeholder='说点什么吧...' bindinput="textInput" ></input>
+	</view>
+	<view class="footer-btn">
+		<view>
+			<text class="cuIcon-message"></text>
+		</view>
+		<view>10</view>
+	</view>
+	<view  class="footer-btn" bindtap="clickLike">
+		<view>
+			<text class="{{iconName?'cuIcon-likefill':'cuIcon-like'}}"></text>
+		</view>
+		<view>点赞</view>
+	</view>
+	<view  class="footer-btn" bindtap="shareLink">
+		<view>
+			<text class="cuIcon-share"></text>
+		</view>
+		<view>分享</view>
+	</view>
+</view>

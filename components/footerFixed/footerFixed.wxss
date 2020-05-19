@@ -1,0 +1,34 @@
+/* components/footerFixed/footerFixed.wxss */
+/* color-UI样式 */
+@import '/commonWxss/animation.wxss';
+@import '/commonWxss/icon.wxss';
+@import '/commonWxss/main.wxss';
+.footer-fixed{
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 98rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30rpx;
+  background:rgba(107,112,134,1);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.footer-fixed-input{
+  background:rgba(255,255,255,1);
+  width: 399rpx;
+  height: 70rpx;
+  border-radius:35rpx;
+  padding: 0 30rpx;
+}
+.footer-fixed-input input{
+  height: 70rpx;
+}
+.footer-btn{
+  /* border: 1px solid black; */
+  text-align: center;
+  color: white;
+  font-size:24rpx;
+}

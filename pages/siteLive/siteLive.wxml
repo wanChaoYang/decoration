@@ -1,0 +1,12 @@
+<!--pages/siteLive/siteLive.wxml-->
+<view>
+	<view class="tab-card">
+		<tabSelect bind:event="changTab" tabList="{{doorList}}"></tabSelect>
+	</view>
+	<view class="tab-card">
+		<tabSelect bind:event="changTab" tabList="{{styleList}}"></tabSelect>
+	</view>
+	<view>
+		<live-player src="https://domain/pull_stream" mode="live" autoplay bindstatechange="statechange" binderror="error" style="width:100%; height: 225px;" />
+	</view>
+</view>

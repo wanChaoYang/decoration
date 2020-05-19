@@ -1,9 +1,14 @@
 /* components/bannerTop/bannerTop.wxss */
+/* color-UI样式 */
+@import '/commonWxss/animation.wxss';
+@import '/commonWxss/icon.wxss';
+@import '/commonWxss/main.wxss';
 .banner-img {
   background-repeat: repeat;
   background-size: 100% 100%;
   height: 563rpx;
   width: 100%;
+  overflow: hidden;
 }
 .banner-foot {
   display: flex;
@@ -33,4 +38,14 @@
 }
 .boder-left{
   border-left: 1px solid rgba(255,255,255,1);
+}
+.left-back{
+  /* border: 1px solid black; */
+  height: 100rpx;
+  width:20%;
+  line-height: 100rpx;
+  margin-top: 48rpx;
+  font-size: 50rpx;
+  color: #fff;
+  padding: 0 30rpx;
 }

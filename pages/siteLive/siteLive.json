@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "工地直播",
+  "usingComponents": {
+    "tabSelect":"/components/tabSelect/tabSelect"
+  }
+}

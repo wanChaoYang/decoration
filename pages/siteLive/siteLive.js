@@ -1,24 +1,62 @@
-// pages/sunHome/sunHome.js
+// pages/siteLive/siteLive.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    doorList:[
+      {
+        id:0,
+        text:"全部"
+      },
+      {
+        id:1,
+        text:"一居",
+      },
+      {
+        id:2,
+        text:"二居"
+      },
+      {
+        id:3,
+        text:"三居"
+      }, {
+        id:4,
+        text:"四居以上"
+      },
+      {
+        id:5,
+        text:"复式"
+      }
+    ],
+    styleList:[
+      {
+        id:0,
+        text:"全部"
+      },
+      {
+        id:1,
+        text:"中式风格",
+      },
+      {
+        id:2,
+        text:"美式田园"
+      },
+      {
+        id:3,
+        text:"美式经典"
+      }, {
+        id:4,
+        text:"北欧极品"
+      },
+      {
+        id:5,
+        text:"风格五"
+      }
+    ],
+  },
 
-  },
-  statechange(e) {
-    console.log('live-player code:', e.detail.code)
-  },
-  error(e) {
-    console.error('live-player error:', e.detail.errMsg)
-  },
-  textInput(e){
-    console.log(e.detail)
-  },
-  shareLink(){
-    console.log('分享')
-  },
   /**
    * 生命周期函数--监听页面加载
    */
