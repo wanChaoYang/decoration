@@ -5,7 +5,9 @@
     "pages/wholeSeries-B/wholeSeries-B",
     "pages/decorateCase/decorateCase",
     "pages/sunHome/sunHome",
-    "pages/siteLive/siteLive"
+    "pages/siteLive/siteLive",
+    "pages/decorateCaseDetail/decorateCaseDetail",
+    "pages/sunHomeList/sunHomeList"
   ],
   "window": {
     "backgroundTextStyle": "light",
