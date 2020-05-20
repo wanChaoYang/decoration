@@ -8,7 +8,7 @@ Component({
    * desCase='18' 设计师案例数量
    * desYear='15' 设计师年限
    * btnText='找他设计'  按钮内容
-   * describe='' 是否显示设计师描述
+   * describe='{{false}} 不显示设计师描述
    */
   properties: {
     desImg:{

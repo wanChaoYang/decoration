@@ -82,3 +82,7 @@
   overflow: hidden;
   text-overflow:ellipsis;
 }
+.page-w-bg{
+  background-color: #fff;
+  min-height: 500px;
+}

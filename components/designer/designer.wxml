@@ -3,7 +3,7 @@
 	<view class="des-name">
 		<view class="cu-avatar lg round" style="background-image:url({{desImg}});"></view>
 		<view class="des-name-z">
-			<view class="des-name-n">{{desName}} <text class="cuIcon-vip"></text></view>
+			<view class="des-name-n">{{desName}} <text class="cuIcon-vip" wx:if="{{describe==true}}"></text></view>
 			<view class="des-name-t" wx:if="{{describe==true}}">
 				<text>{{desLevel}}</text>
 				<text>案例{{desCase}}</text>

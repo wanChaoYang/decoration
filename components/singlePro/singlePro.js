@@ -69,11 +69,12 @@ Component({
    */
   methods: {
     ToHref(){
-      if (this.data.hrefLink!=''){
-        wx.navigateTo({
-          url: this.data.hrefLink,
-        })
-      }
+      this.triggerEvent('event',{},{})
+      // if (this.data.hrefLink!=''){
+      //   wx.navigateTo({
+      //     url: this.data.hrefLink,
+      //   })
+      // }
     },
     imageLoad(e){
       this.setData({
