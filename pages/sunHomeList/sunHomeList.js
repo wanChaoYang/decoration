@@ -1,10 +1,35 @@
-// pages/decorateCase/decorateCase.js
+// pages/sunHomeList/sunHomeList.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    tabList:[
+      {
+        id:0,
+        text:"全部"
+      },
+      {
+        id:1,
+        text:"家装案例",
+      },
+      {
+        id:2,
+        text:"精品案例"
+      },
+      {
+        id:3,
+        text:"甄选案例"
+      }, {
+        id:4,
+        text:"VR案例"
+      },
+      {
+        id:5,
+        text:"案例五"
+      }
+    ],
     doorList:[
       {
         id:0,
@@ -56,21 +81,12 @@ Page({
       }
     ],
   },
-  changTab(res){
-    //获取tab的值
-    let tabData=res.detail.data
-    console.log(tabData)
-  },
-  ToHref(){
-    wx.navigateTo({
-          url:"/pages/decorateCaseDetail/decorateCaseDetail",
-        })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-   
+
   },
 
   /**

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "tabSelect":"/components/tabSelect/tabSelect",
+    "cardList":"/components/cardList/cardList"
+  }
+}

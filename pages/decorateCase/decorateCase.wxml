@@ -1,5 +1,5 @@
 <!--pages/decorateCase/decorateCase.wxml-->
-<view>
+<view class="page-w-bg">
 	<view class="tab-card">
 		<tabSelect bind:event="changTab" tabList="{{tabList}}"></tabSelect>
 	</view>
@@ -8,5 +8,10 @@
 	</view>
   <view class="tab-card">
 		<tabSelect bind:event="changTab" tabList="{{styleList}}"></tabSelect>
+	</view>
+	<view class="you-like">
+		<view class="sing-s">
+				<singlePro imageUrl='/components/compUseImg/comeback.png' productName='保利锦江里110平米港式风格效 果图案例' productTitle='三居室 | 112㎡' seeNum='54556' bind:event='ToHref'></singlePro>
+			</view>
 	</view>
 </view>

@@ -73,7 +73,7 @@
 	<view style="padding:0 20rpx">
 		<view class="see-case-title">
 			<view class="case-title">晒家</view>
-			<view>
+			<view bindtap="sunHomeDetail">
 				<text>查看更多</text>
 				<text class="cuIcon-right"></text>
 			</view>
@@ -88,14 +88,14 @@
 	<view class="">
 		<view class="see-case-title">
 			<view class="case-title">猜你喜欢</view>
-			<view>
+			<view bindtap="pageInto">
 				<text>查看更多</text>
 				<text class="cuIcon-right"></text>
 			</view>
 		</view>
 		<view class="you-like">
 			<view class="sing-s" wx:for="{{swiperList}}">
-				<singlePro imageUrl='/components/compUseImg/comeback.png' productName='保利锦江里110平米港式风格效 果图案例' productTitle='三居室 | 112㎡' seeNum='54556'></singlePro>
+				<singlePro imageUrl='/components/compUseImg/comeback.png' productName='保利锦江里110平米港式风格效 果图案例' productTitle='三居室 | 112㎡' seeNum='54556' bind:event='ToHref'></singlePro>
 			</view>
 		</view>
 	</view>
