@@ -1,5 +1,5 @@
 <!--pages/decorateCaseDetail/decorateCaseDetail.wxml-->
 <view>
-	<bannerTop bannerImg='https://ossweb-img.qq.com/images/lol/web201310/skin/big99008.jpg' villageName='中原新城一号' bannerType='brows' decStyle='简约' doorModel='三居室' doorModelNum='89'></bannerTop>
+	<bannerTop bannerImg='/components/compUseImg/u.jpg' villageName='中原新城一号' bannerType='brows' decStyle='简约' doorModel='三居室' doorModelNum='89'></bannerTop>
 	<designer desImg='https://ossweb-img.qq.com/images/lol/web201310/skin/big99008.jpg' desName='小瓶盖' desLevel='首席设计师' desCase='18' desYear='15' btnText='获取本案例报价' describe='{{false}}'bind:event="LookingForDes" ></designer>
 </view>

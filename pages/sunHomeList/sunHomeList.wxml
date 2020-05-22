@@ -1,12 +1,15 @@
 <!--pages/sunHomeList/sunHomeList.wxml-->
-<view>
-  <view class="tab-card">
+<view >
+<view class="top-tab-card">
+ <view class="tab-card margin-top">
 		<tabSelect bind:event="changTab" tabList="{{doorList}}"></tabSelect>
 	</view>
   <view class="tab-card">
 		<tabSelect bind:event="changTab" tabList="{{styleList}}"></tabSelect>
 	</view>
-  	<view style="margin-bottom:20rpx">
+</view>
+<view class="top-tab-card-i"></view>
+	<view style="margin-bottom:20rpx" wx:for="22">
 				<cardList userName="小瓶盖1" userImg="https://ossweb-img.qq.com/images/lol/web201310/skin/big99008.jpg" VillageName="保利锦江里110平米港式风湿效果图案列" VillageImg="{{item.url}}" bind:event="styleDetails"></cardList>
 			</view>
 </view>

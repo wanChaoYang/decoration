@@ -1,5 +1,17 @@
 /* pages/sunHomeList/sunHomeList.wxss */
 .tab-card{
   /* border: 1px solid black; */
-  padding: 15rpx 0;
+  padding-bottom: 40rpx;
+}
+.top-tab-card{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 100;
+}
+.top-tab-card-i{
+  width: 100%;
+  height: 217rpx;
 }

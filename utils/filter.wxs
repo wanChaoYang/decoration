@@ -1,0 +1,14 @@
+/** 微信过滤器
+ * 过滤器方法可以在这里写
+ * 使用时在相应的wxml中引入 <wxs src="../../utils/filter.wxs" module="filter" />
+ */
+
+//图片地址获取
+var getImg=function(imgName){
+  return "/components/compUseImg/"+imgName
+}
+
+
+module.exports={
+  getImg:getImg
+}

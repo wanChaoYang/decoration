@@ -1,4 +1,5 @@
 {
+  "navigationBarTitleText": "精美晒家",
   "usingComponents": {
     "tabSelect":"/components/tabSelect/tabSelect",
     "cardList":"/components/cardList/cardList"
